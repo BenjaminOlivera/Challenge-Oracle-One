@@ -1,0 +1,163 @@
+* {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+header {
+  display: flex;
+}
+header .detective {
+  height: 130px;
+  width: 90px;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+header h2 {
+  font-weight: bold;
+  color: #0a3871;
+}
+
+main {
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.text-area {
+  border-color: #0a3871;
+  border-width: 4.5px;
+  border-style: solid;
+  border-radius: 8px;
+  color: #0a3871;
+  text-transform: lowercase;
+  height: 40px;
+  width: 800px;
+}
+
+::placeholder {
+  color: #7e8183;
+}
+.text-area:focus {
+  outline: none;
+}
+.mensaje {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./imagenes/escritorio.png);
+  background-size: cover;
+  border-width: 4.5px;
+  border-style: solid;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: bolder;
+  border-color: #0a3871;
+  color: white;
+  padding-left: 20px;
+  margin-top: 40px;
+  width: 800px;
+  height: 190px;
+}
+.mensaje:focus {
+  outline: none;
+}
+
+.botones {
+  width: 800px;
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-desencriptar {
+  background: #0a3871;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  height: 60px;
+  width: 220px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(#0a3871, #0f3d75);
+  transition: 0.9s ease;
+  border: 1px solid #0f60c4;
+}
+.btn-desencriptar:hover {
+  background: #0a3871;
+  color: white;
+}
+
+.btn-encriptar {
+  background-color: #0a3871;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  height: 60px;
+  width: 220px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(#0a3871, #0f3d75);
+  transition: 0.9s ease;
+  border: 1px solid #0f60c4;
+}
+.btn-encriptar:hover {
+  background: #0a3871;
+  color: white;
+}
+.btn-pegar {
+  border-radius: 10px;
+  background-color: #0a3871;
+  color: white;
+  cursor: pointer;
+  height: 60px;
+  width: 220px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(#0a3871, #0f3d75);
+  transition: 0.9s ease;
+  border: 1px solid #0f60c4;
+}
+.btn-pegar:hover {
+  background: #0a3871;
+  color: white;
+}
+.logo-alura img {
+  position: absolute;
+  right: 100px;
+  margin-top: 30px;
+  z-index: -3;
+  width: 600px;
+  height: 690px;
+}
+h4 {
+  margin: 40px 0px 0px 5px;
+  color: #0a3871;
+  font-weight: bold;
+}
+
+.copiar {
+  background-color: #0a3871;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  height: 60px;
+  margin-left: 80px;
+  margin-top: 120px;
+  position: absolute;
+  width: 220px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+  background: linear-gradient(#0a3871, #0f3d75);
+  transition: 0.9s ease;
+  border: 1px solid #0f60c4;
+}
+.copiar:hover {
+  background: #0a3871;
+  color: white;
+}
+
+.mensaje-encriptado {
+  display: flex;
+}
+
+.informacion {
+  color: #0a3871;
+  font-weight: bold;
+  font-size: 18px;
+}
